@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AshBashApps</title>
+  <meta name="description" content="AshBashApps Limited makes Tom's Phone, an Android phone app for older people, set up and looked after by family or a carer.">
+  <link rel="canonical" href="https://ashbashapps.com/">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1c1c1c;
+      --muted: #555555;
+      --rule: #dddddd;
+      --link: #0b57d0;
+      --panel: #f4f6f8;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #ececec;
+        --muted: #b0b0b0;
+        --rule: #333333;
+        --link: #8ab4f8;
+        --panel: #1e1e1e;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 112.5%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+    }
+    main, footer { max-width: 40rem; margin: 0 auto; padding: 0 16px; }
+    header { padding: 3rem 0 1rem; }
+    h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -0.01em; }
+    .tagline { color: var(--muted); margin: 0; font-size: 1.1rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--link); text-underline-offset: .15em; }
+    .card {
+      background: var(--panel);
+      border-radius: 12px;
+      padding: 1.25rem 1.25rem 1rem;
+      margin: 1rem 0 0;
+    }
+    .card h3 { margin: 0 0 .5rem; font-size: 1.15rem; }
+    .links { list-style: none; padding: 0; margin: .75rem 0 0; }
+    .links li { margin: .35rem 0; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      padding-bottom: 3rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    footer p { margin: 0 0 .5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>AshBashApps</h1>
+      <p class="tagline">Android apps for older people and the families who look after them.</p>
+    </header>
+
+    <section aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p>AshBashApps Limited is a small UK software company. It began with one phone, built for a 96-year-old mother who needed to make and take calls with a single tap however tired or confused she was, and grew into an app that other families and carers could set up for the person they look after.</p>
+    </section>
+
+    <section aria-labelledby="apps">
+      <h2 id="apps">What we make</h2>
+      <div class="card">
+        <h3>Tom's Phone</h3>
+        <p>A dedicated phone for an older or vulnerable person. Big one-tap call buttons, a spoken ring that names who is calling, missed-call reminders, an SOS button for the emergency services, and a medical card for responders. A family member or carer sets it up and looks after it; the person using it sees only their home screen. Works without an account and keeps its data on the phone.</p>
+        <ul class="links">
+          <li><a href="https://www.toms-phone.com/">Tom's Phone website</a></li>
+          <li><a href="https://www.toms-phone.com/support">Setup guide and support</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.ashbashapps.tomsphone">Tom's Phone on Google Play</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>Email <a href="mailto:ashbashapps@gmail.com">ashbashapps@gmail.com</a>.</p>
+      <p>For help with Tom's Phone, the <a href="https://www.toms-phone.com/support">support page</a> covers setup, troubleshooting and common questions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>AshBashApps Limited is a company registered in England and Wales, company number 13945428.</p>
+    <p>Registered office: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ.</p>
+    <p><a href="https://www.toms-phone.com/privacy">Privacy policy</a> for Tom's Phone.</p>
+  </footer>
+</body>
+</html>
